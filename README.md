@@ -26,5 +26,5 @@ Deploy gitlab to a vanilla ubuntu 12.04.2 64bit server.
 
 ```
 ~$ cd deploy-gitlab
-~/deploy-gitlab$ chef-solo -c solo.rb -j solo.json
+~/deploy-gitlab$ sudo chef-solo -c solo.rb -j solo.json
 ```
